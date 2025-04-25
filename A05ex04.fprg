@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 08:09:55 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NDM6MzkgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDg6MDk6NTUgIjszOzIyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, divisao" type="Real" array="False" size=""/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 10%2" newline="True"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 15%5" newline="True"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 5%1" newline="True"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 14%7" newline="True"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 28%14" newline="True"/>
+            <output expression="&quot;O valor &#233;: &quot; &amp; 55%5" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

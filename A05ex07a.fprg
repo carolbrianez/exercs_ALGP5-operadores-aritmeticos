@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 09:53:00 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NDM6MzkgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDk6NTM6MDAgIjs4OzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario, hora, meio, total" type="Integer" array="False" size=""/>
+            <assign variable="salario" expression="1518"/>
+            <assign variable="meio" expression="salario/2"/>
+            <assign variable="hora" expression="330"/>
+            <assign variable="total" expression="salario + meio"/>
+            <output expression="&quot;Qual o valor da hora trabalhada: R$ &quot; &amp; total/hora" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

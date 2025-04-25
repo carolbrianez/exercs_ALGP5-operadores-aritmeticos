@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 09:07:40 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NDM6MzkgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDk6MDc6NDAgIjs1OzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;a) 2+2/2 = &quot; &amp; (2+2/2)" newline="True"/>
+            <output expression="&quot;b) 10/2+2: &quot; &amp; (10/2+2)" newline="True"/>
+            <output expression="&quot;c) 10%5*1000: &quot; &amp; (10%5*1000)" newline="True"/>
+            <output expression="&quot;O valor do resto &#233;: &quot; &amp; (x%y)" newline="True"/>
+            <output expression="&quot;d) 1000*10%5 = &quot; &amp; (1000*10%5)" newline="True"/>
+            <output expression="&quot;e) 100-99/98+1: &quot; &amp; (100-Int(99/98)+1)" newline="True"/>
+            <output expression="&quot;f) 10+10-10*10/10 = &quot; &amp; (10+10-10*10/10)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

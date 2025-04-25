@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:53:46 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NDM6MzkgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NTM6NDYgIjsxOzIyMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, soma, subtracao, divisao, multiplicacao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um primeiro valor: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite um segundo valor: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;O resultado da soma &#233;: &quot; &amp; (x+y)" newline="True"/>
+            <output expression="&quot;O resultado da subtra&#231;&#227;o &#233;: &quot; &amp; (x-y)" newline="True"/>
+            <output expression="&quot;O resultado da multiplica&#231;&#227;o &#233;: &quot; &amp; (x*y)" newline="True"/>
+            <output expression="&quot;O resultado da divis&#227;o &#233;: &quot; &amp; (x/y)" newline="True"/>
+            <assign variable="soma" expression="x + y"/>
+            <assign variable="subtracao" expression="x - y"/>
+            <assign variable="divisao" expression="x / y"/>
+            <assign variable="multiplicacao" expression="x * y"/>
+        </body>
+    </function>
+</flowgorithm>

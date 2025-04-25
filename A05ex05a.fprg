@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 08:58:15 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDc6NDM6MzkgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTM7MjAyNS0wMy0yMTsiMDg6NTg6MTUgIjs0OzIyMTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="porcecntagem, dividendo, resto, x, y" type="Real" array="False" size=""/>
+            <output expression="&quot;Forne&#231;a um valor para x: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Forne&#231;a um valor para y: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;O valor da divis&#227;o &#233;: &quot; &amp; (x/y)" newline="True"/>
+            <output expression="&quot;O valor do resto &#233;: &quot; &amp; (x%y)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
